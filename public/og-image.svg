@@ -1,0 +1,23 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0b12" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#1f1f2e" />
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(960 120) rotate(135) scale(520 380)">
+      <stop stop-color="#7c3aed" stop-opacity="0.85" />
+      <stop offset="1" stop-color="#0b0b12" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <rect width="1200" height="630" fill="url(#glow)" />
+  <g opacity="0.85">
+    <text x="80" y="290" fill="#F8FAFC" font-size="64" font-family="'Space Grotesk', 'Inter', sans-serif" font-weight="600">Rania Jilan</text>
+    <text x="80" y="370" fill="#C7D2FE" font-size="32" font-family="'Inter', sans-serif" font-weight="400">Premium Product Design & Frontend Engineering</text>
+  </g>
+  <g opacity="0.25">
+    <circle cx="1020" cy="520" r="140" stroke="#7c3aed" stroke-width="2" />
+    <circle cx="1020" cy="520" r="210" stroke="#38bdf8" stroke-width="1.5" />
+  </g>
+</svg>
