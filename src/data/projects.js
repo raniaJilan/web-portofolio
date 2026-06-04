@@ -1,37 +1,37 @@
-export const projectFilters = ['All', 'Product', 'SaaS', 'Brand', 'Web3', 'Mobile']
+export const projectFilters = ['All', 'UIUX Design', 'Web Development', 'System & Product Analyst', 'Data & AI']
 
 export const projects = [
   {
-    title: 'Lumen Analytics Platform',
-    slug: 'lumen-analytics-platform',
-    category: 'SaaS',
+    title: 'Inclusign AI-Powered Inclusive Learning Platform',
+    slug: 'Inclusign-AI-Powered-Inclusive-Learning-Platform',
+    category: 'UIUX Design',
     description:
-      'A modular analytics suite with real-time insights, collaborative dashboards, and AI summaries.',
+      'IncluSign is an AI-powered inclusive learning platform designed with a design thinking approach to improve educational accessibility for the Deaf community.',
     image:
       'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80',
-    tags: ['Dashboard', 'Design System', 'React', 'Framer Motion'],
-    year: '2024',
+    tags: ['Inclusive Design', 'User Centered Design', 'AI Integration'],
+    year: '2026',
     featured: true,
     links: {
-      demo: 'https://example.com',
-      github: 'https://github.com/',
+      demo: 'https://www.figma.com/proto/vbPHpGaBhCPcKcBNsKcwk0/INCUSIGN?node-id=29-25232&t=NgXmx7Z3meB9Ncr8-1&scaling=scale-down&content-scaling=fixed&page-id=29%3A17749&starting-point-node-id=29%3A25204&show-proto-sidebar=1',
+      github: 'https://drive.google.com/file/d/1JxdE0zsrmNeYI12xM-iK05fSSTx2pA-i/view?usp=sharing',
     },
     impact: ['+42% activation rate', '30% faster reporting cycles'],
   },
   {
-    title: 'Pulse Health Companion',
+    title: 'Rubbix',
     slug: 'pulse-health-companion',
-    category: 'Mobile',
+    category: 'UIUX Design',
     description:
       'A wellness companion blending biometric insights with curated rituals and progress tracking.',
     image:
-      'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=80',
+      'https://unsplash.com/id/foto/deretan-tempat-sampah-yang-duduk-di-atas-trotoar-7M2Ljcw6PHI',
     tags: ['iOS', 'UX Strategy', 'Design'],
-    year: '2023',
+    year: '2024',
     featured: true,
     links: {
       demo: 'https://example.com',
-      github: 'https://github.com/',
+      github: 'https://drive.google.com/file/d/1XlD1lBYEXHubIPWgaz5zZu68JQq9GHeT/view?usp=sharing',
     },
     impact: ['4.8★ average rating', '50k active users'],
   },

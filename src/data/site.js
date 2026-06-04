@@ -1,27 +1,27 @@
 export const siteMeta = {
-  title: 'Rania Jilan — Product Designer & Frontend Engineer',
+  title: 'Rania Jilan Haniyah— Product Designer & Data Enthusiast',
   description:
     'Premium portfolio showcasing product design leadership, frontend engineering, and motion-first digital experiences.',
   author: 'Rania Jilan',
-  email: 'hello@raniajilan.com',
-  location: 'Jakarta, Indonesia',
+  email: 'ranihany223@gmail.com',
+  location: 'Malang, Indonesia',
   availability: 'Open for select collaborations',
-  resumeUrl: 'https://example.com/resume.pdf',
+  resumeUrl: 'https://drive.google.com/file/d/1pNP5hi-KVJwt86zJUUJZDzWTgMV4jCdQ/view?usp=sharing',
 }
 
 export const hero = {
-  headline: 'Designing premium digital experiences that feel effortless.',
-  subheadline: 'Product Designer • Frontend Engineer • Motion Enthusiast',
+  headline: 'Creating technology-driven solutions with purpose.',
+  subheadline: 'Product Designer • Product Manager • Product & Business Analyst • Data Enthusiast',
   description:
-    'I craft elegant, high-performing interfaces for ambitious teams—blending design systems, interaction design, and modern engineering to ship experiences people remember.',
-  ctaPrimary: { label: 'Book a discovery call', href: '#contact' },
-  ctaSecondary: { label: 'View selected work', href: '#projects' },
+    'I turn complex problems into meaningful digital solutions through technology, strategy, and analytical thinking.',
+  ctaPrimary: { label: 'Let’s Connect', href: '#contact' },
+  ctaSecondary: { label: 'Things I’ve Built', href: '#projects' },
   image:
-    'https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80',
+    'https://drive.google.com/file/d/1S5tcB71ajDm8dIlJ6l-RVfh1tFwnKCaT/view?usp=drive_link',
   highlights: [
-    '9+ years shipping digital products',
-    'Led design systems across 5 SaaS platforms',
-    'Specialist in motion-first UI',
+    'Information technology University of Brawijaya',
+    '2+ years of organizational experience',
+    'get 3.81/4.00 GPA with 4.00 in the 6th semester',
   ],
   metrics: [
     { label: 'Projects shipped', value: '48+' },

@@ -1,17 +1,17 @@
 export const achievements = [
   {
-    title: 'Awwwards Honorable Mention',
-    description: 'Recognized for a motion-first SaaS launch experience.',
-    year: '2024',
+    title: '3rd Place Winner UI/UX Competition Arkavidia',
+    description: 'IncluSign is an AI-powered inclusive learning platform designed to improve educational accessibility for the Deaf community through sign language translation and real-time learning support.',
+    year: 'Bandung Institute of Technology - 2026',
   },
   {
-    title: 'Top 1% Product Launch',
-    description: 'Featured on Product Hunt for a collaborative analytics suite.',
-    year: '2023',
+    title: '2nd Place Winner UI/UX Competition Digicom',
+    description: 'Developed a user centered design digital recycling platform that connects waste producers with recycling businesses to support sustainable waste management.',
+    year: 'Bangka Belitung University - 2024',
   },
   {
-    title: 'Design System Rollout',
-    description: 'Scaled a cross-platform system across web and mobile teams.',
-    year: '2022',
+    title: '2nd Place Winner UI/UX Competition Festika',
+    description: 'Developed a user centered design digital recycling platform that connects waste producers with recycling businesses to support sustainable waste management.',
+    year: 'ITB STIKOM Bali - 2024',
   },
 ]
