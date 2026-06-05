@@ -12,10 +12,10 @@ export const projects = [
     tags: ['Inclusive Design', 'User Centered Design', 'AI Integration'],
     year: '2026',
     featured: true,
-    links: {
-      demo: 'https://www.figma.com/proto/vbPHpGaBhCPcKcBNsKcwk0/INCUSIGN?node-id=29-25232&t=NgXmx7Z3meB9Ncr8-1&scaling=scale-down&content-scaling=fixed&page-id=29%3A17749&starting-point-node-id=29%3A25204&show-proto-sidebar=1',
-      github: 'https://drive.google.com/file/d/1JxdE0zsrmNeYI12xM-iK05fSSTx2pA-i/view?usp=sharing',
-    },
+    actions: [
+      { label: 'Prototype', url: 'https://www.figma.com/proto/vbPHpGaBhCPcKcBNsKcwk0/INCUSIGN?node-id=29-25232&t=NgXmx7Z3meB9Ncr8-1&scaling=scale-down&content-scaling=fixed&page-id=29%3A17749&starting-point-node-id=29%3A25204&show-proto-sidebar=1', icon: 'ExternalLink' },
+      { label: 'Case Study', url: 'https://drive.google.com/file/d/1JxdE0zsrmNeYI12xM-iK05fSSTx2pA-i/view?usp=sharing', icon: 'FileText' },
+    ],
     impact: ['+42% activation rate', '30% faster reporting cycles'],
   },
   {
@@ -29,10 +29,10 @@ export const projects = [
     tags: ['iOS', 'UX Strategy', 'Design'],
     year: '2024',
     featured: true,
-    links: {
-      demo: 'https://example.com',
-      github: 'https://drive.google.com/file/d/1XlD1lBYEXHubIPWgaz5zZu68JQq9GHeT/view?usp=sharing',
-    },
+    actions: [
+      { label: 'Live Demo', url: 'https://example.com', icon: 'ExternalLink' },
+      { label: 'Case Study', url: 'https://drive.google.com/file/d/1XlD1lBYEXHubIPWgaz5zZu68JQq9GHeT/view?usp=sharing', icon: 'FileText' },
+    ],
     impact: ['4.8★ average rating', '50k active users'],
   },
   {
@@ -46,10 +46,10 @@ export const projects = [
     tags: ['E-commerce', 'Frontend', 'Performance'],
     year: '2022',
     featured: false,
-    links: {
-      demo: 'https://example.com',
-      github: 'https://github.com/',
-    },
+    actions: [
+      { label: 'Live Demo', url: 'https://example.com', icon: 'ExternalLink' },
+      { label: 'GitHub', url: 'https://github.com/', icon: 'Github' },
+    ],
     impact: ['+18% conversion', '98 Lighthouse score'],
   },
   {
@@ -63,10 +63,10 @@ export const projects = [
     tags: ['Brand', 'Motion', 'Storytelling'],
     year: '2021',
     featured: false,
-    links: {
-      demo: 'https://example.com',
-      github: 'https://github.com/',
-    },
+    actions: [
+      { label: 'Live Demo', url: 'https://example.com', icon: 'ExternalLink' },
+      { label: 'GitHub', url: 'https://github.com/', icon: 'Github' },
+    ],
     impact: ['+2.1x brand recall'],
   },
   {
@@ -80,10 +80,10 @@ export const projects = [
     tags: ['WebGL', 'Motion', 'Brand'],
     year: '2020',
     featured: false,
-    links: {
-      demo: 'https://example.com',
-      github: 'https://github.com/',
-    },
+    actions: [
+      { label: 'Live Demo', url: 'https://example.com', icon: 'ExternalLink' },
+      { label: 'GitHub', url: 'https://github.com/', icon: 'Github' },
+    ],
     impact: ['+26% waitlist signups'],
   },
 ]

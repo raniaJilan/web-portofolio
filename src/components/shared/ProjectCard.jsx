@@ -1,8 +1,18 @@
 import { motion } from 'framer-motion'
-import { ArrowUpRight, Github } from 'lucide-react'
+import { ArrowUpRight, ExternalLink, FileText, Github, Globe, BookOpen, Presentation, FlaskConical } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { cn } from '../../lib/utils'
 import { Badge } from '../ui/badge'
+
+const iconMap = {
+  ExternalLink,
+  FileText,
+  Github,
+  Globe,
+  BookOpen,
+  Presentation,
+  FlaskConical,
+}
 
 const ProjectCard = ({ project, className = '' }) => {
   return (
@@ -46,7 +56,7 @@ const ProjectCard = ({ project, className = '' }) => {
             </span>
           ))}
         </div>
-        <div className="flex items-center gap-3">
+        <div className="flex flex-wrap items-center gap-3">
           <Link
             to={`/project/${project.slug}`}
             className="inline-flex items-center gap-1 text-sm font-semibold text-[var(--text)]"
@@ -54,15 +64,22 @@ const ProjectCard = ({ project, className = '' }) => {
             View case study
             <ArrowUpRight className="h-4 w-4" />
           </Link>
-          <a
-            href={project.links.github}
-            target="_blank"
-            rel="noreferrer"
-            className="inline-flex items-center gap-1 text-sm text-[var(--text-muted)]"
-          >
-            <Github className="h-4 w-4" />
-            GitHub
-          </a>
+          {project.actions &&
+            project.actions.map((action) => {
+              const Icon = iconMap[action.icon] || ExternalLink
+              return (
+                <a
+                  key={action.label}
+                  href={action.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center gap-1.5 rounded-full border border-[var(--border)] px-3 py-1.5 text-xs font-medium text-[var(--text-muted)] transition hover:border-[var(--accent)] hover:text-[var(--text)]"
+                >
+                  <Icon className="h-3.5 w-3.5" />
+                  {action.label}
+                </a>
+              )
+            })}
         </div>
       </div>
     </motion.article>

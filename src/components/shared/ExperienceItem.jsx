@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import { Badge } from '../ui/badge'
+import ImageCarousel from './ImageCarousel'
 
 const ExperienceItem = ({ experience, index }) => {
   return (
@@ -28,6 +29,14 @@ const ExperienceItem = ({ experience, index }) => {
             </li>
           ))}
         </ul>
+
+        {/* Image gallery carousel */}
+        {experience.gallery && experience.gallery.length > 0 && (
+          <div className="mt-4">
+            <ImageCarousel images={experience.gallery} height="160px" />
+          </div>
+        )}
+
         <div className="mt-4 flex flex-wrap gap-2">
           {experience.technologies.map((tech) => (
             <Badge key={tech} variant="ghost">

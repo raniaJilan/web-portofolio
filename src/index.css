@@ -7,38 +7,38 @@
   --font-display: "Space Grotesk", "Inter", system-ui, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, monospace;
 
-  --bg: #f8fafc;
-  --bg-muted: #eef2ff;
-  --panel: rgba(255, 255, 255, 0.85);
-  --panel-strong: rgba(255, 255, 255, 0.95);
-  --border: rgba(148, 163, 184, 0.28);
-  --text: #0f172a;
-  --text-muted: #475569;
-  --primary: #5b21b6;
-  --primary-foreground: #f8fafc;
-  --accent: #0ea5e9;
+  --bg: #FFFFFF;
+  --bg-muted: #F5F7FA;
+  --panel: rgba(255, 255, 255, 0.92);
+  --panel-strong: rgba(255, 255, 255, 0.97);
+  --border: rgba(148, 163, 184, 0.22);
+  --text: #1A1A2E;
+  --text-muted: #374151;
+  --primary: #1E3A5F;
+  --primary-foreground: #FFFFFF;
+  --accent: #3B82F6;
   --accent-foreground: #0b1120;
-  --ring: rgba(91, 33, 182, 0.4);
-  --shadow-soft: 0 24px 80px rgba(15, 23, 42, 0.12);
-  --shadow-card: 0 24px 60px rgba(15, 23, 42, 0.12);
+  --ring: rgba(30, 58, 95, 0.4);
+  --shadow-soft: 0 24px 80px rgba(30, 58, 95, 0.08);
+  --shadow-card: 0 8px 32px rgba(30, 58, 95, 0.08);
 }
 
 [data-theme="dark"] {
   color-scheme: dark;
-  --bg: #0b0b12;
-  --bg-muted: #10121c;
-  --panel: rgba(16, 18, 28, 0.6);
-  --panel-strong: rgba(20, 22, 34, 0.85);
+  --bg: #0F172A;
+  --bg-muted: #1E293B;
+  --panel: rgba(15, 23, 42, 0.65);
+  --panel-strong: rgba(30, 41, 59, 0.88);
   --border: rgba(148, 163, 184, 0.16);
-  --text: #f8fafc;
-  --text-muted: #94a3b8;
-  --primary: #8b5cf6;
-  --primary-foreground: #0b0b12;
-  --accent: #38bdf8;
-  --accent-foreground: #0b0b12;
-  --ring: rgba(139, 92, 246, 0.5);
-  --shadow-soft: 0 30px 90px rgba(3, 7, 18, 0.65);
-  --shadow-card: 0 40px 90px rgba(3, 7, 18, 0.55);
+  --text: #F1F5F9;
+  --text-muted: #94A3B8;
+  --primary: #3B82F6;
+  --primary-foreground: #FFFFFF;
+  --accent: #60A5FA;
+  --accent-foreground: #0F172A;
+  --ring: rgba(59, 130, 246, 0.5);
+  --shadow-soft: 0 30px 90px rgba(0, 0, 0, 0.55);
+  --shadow-card: 0 12px 40px rgba(0, 0, 0, 0.45);
 }
 
 * {
@@ -85,7 +85,7 @@ section {
 }
 
 ::selection {
-  background: rgba(91, 33, 182, 0.25);
+  background: rgba(30, 58, 95, 0.2);
 }
 
 @layer base {
@@ -135,14 +135,14 @@ section {
     inset: 0;
     border-radius: inherit;
     padding: 1px;
-    background: linear-gradient(120deg, rgba(139, 92, 246, 0.7), rgba(56, 189, 248, 0.6));
+    background: linear-gradient(120deg, rgba(30, 58, 95, 0.6), rgba(59, 130, 246, 0.5));
     mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     mask-composite: exclude;
     pointer-events: none;
   }
 
   .hero-grid {
-    background-image: radial-gradient(circle at 1px 1px, rgba(148, 163, 184, 0.16) 1px, transparent 0);
+    background-image: radial-gradient(circle at 1px 1px, rgba(30, 58, 95, 0.1) 1px, transparent 0);
     background-size: 32px 32px;
   }
 
@@ -151,7 +151,7 @@ section {
     position: absolute;
     inset: 0;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180' viewBox='0 0 180 180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)' opacity='0.15'/%3E%3C/svg%3E");
-    opacity: 0.05;
+    opacity: 0.04;
     mix-blend-mode: overlay;
     pointer-events: none;
   }

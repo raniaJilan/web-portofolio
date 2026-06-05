@@ -46,7 +46,20 @@ const Certifications = () => {
                 <div key={achievement.title} className="rounded-2xl border border-[var(--border)] bg-[rgba(148,163,184,0.08)] p-4">
                   <p className="text-sm font-semibold text-[var(--text)]">{achievement.title}</p>
                   <p className="mt-2 text-sm text-[var(--text-muted)]">{achievement.description}</p>
-                  <span className="mt-3 inline-block text-xs text-[var(--text-muted)]">{achievement.year}</span>
+                  <div className="mt-3 flex items-center justify-between gap-3">
+                    <span className="text-xs text-[var(--text-muted)]">{achievement.year}</span>
+                    {achievement.certificateUrl && (
+                      <a
+                        href={achievement.certificateUrl}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="inline-flex items-center gap-1 rounded-full border border-[var(--border)] bg-[var(--panel)] px-3 py-1.5 text-xs font-medium text-[var(--text)] transition hover:-translate-y-0.5 hover:shadow-sm"
+                      >
+                        View Certificate
+                        <ArrowUpRight className="h-3 w-3" />
+                      </a>
+                    )}
+                  </div>
                 </div>
               ))}
             </div>

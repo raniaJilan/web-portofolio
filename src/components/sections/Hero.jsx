@@ -99,7 +99,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="relative"
           >
-            <div className="absolute -inset-8 rounded-[32px] bg-gradient-to-br from-[rgba(91,33,182,0.25)] via-transparent to-[rgba(56,189,248,0.25)] blur-2xl" />
+            <div className="absolute -inset-8 rounded-[32px] bg-gradient-to-br from-[rgba(30,58,95,0.2)] via-transparent to-[rgba(59,130,246,0.2)] blur-2xl" />
             <div className="relative overflow-hidden rounded-[32px] border border-[var(--border)] bg-[var(--panel)] p-4 shadow-card">
               <img
                 src={hero.image}

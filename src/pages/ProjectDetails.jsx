@@ -1,10 +1,20 @@
-import { ArrowLeft, ArrowUpRight } from 'lucide-react'
+import { ArrowLeft, ArrowUpRight, ExternalLink, FileText, Github, Globe, BookOpen, Presentation, FlaskConical } from 'lucide-react'
 import { useMemo } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import Container from '../components/layout/Container'
 import { Badge } from '../components/ui/badge'
 import { Button } from '../components/ui/button'
 import { projects } from '../data/projects'
+
+const iconMap = {
+  ExternalLink,
+  FileText,
+  Github,
+  Globe,
+  BookOpen,
+  Presentation,
+  FlaskConical,
+}
 
 const ProjectDetails = () => {
   const { slug } = useParams()
@@ -15,7 +25,7 @@ const ProjectDetails = () => {
       <Container>
         <div className="mx-auto max-w-2xl py-24 text-center">
           <p className="text-sm text-[var(--text-muted)]">Project not found.</p>
-          <h1 className="mt-4 text-3xl font-semibold">Let’s head back.</h1>
+          <h1 className="mt-4 text-3xl font-semibold">Let's head back.</h1>
           <Button asChild className="mt-6" variant="gradient">
             <Link to="/">Return home</Link>
           </Button>
@@ -49,17 +59,23 @@ const ProjectDetails = () => {
               ))}
             </div>
             <div className="mt-6 flex flex-wrap gap-3">
-              <Button asChild variant="gradient">
-                <a href={project.links.demo} target="_blank" rel="noreferrer">
-                  Visit live demo
-                  <ArrowUpRight className="h-4 w-4" />
-                </a>
-              </Button>
-              <Button asChild variant="outline">
-                <a href={project.links.github} target="_blank" rel="noreferrer">
-                  View on GitHub
-                </a>
-              </Button>
+              {project.actions &&
+                project.actions.map((action, index) => {
+                  const Icon = iconMap[action.icon] || ExternalLink
+                  return (
+                    <Button
+                      key={action.label}
+                      asChild
+                      variant={index === 0 ? 'gradient' : 'outline'}
+                    >
+                      <a href={action.url} target="_blank" rel="noreferrer">
+                        <Icon className="h-4 w-4" />
+                        {action.label}
+                        {index === 0 && <ArrowUpRight className="h-4 w-4" />}
+                      </a>
+                    </Button>
+                  )
+                })}
             </div>
           </div>
           <div className="rounded-3xl border border-[var(--border)] bg-[var(--panel)] p-6 shadow-card">
