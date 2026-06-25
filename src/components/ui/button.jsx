@@ -13,7 +13,7 @@ const buttonVariants = cva(
         outline: 'border border-[var(--border)] text-[var(--text)] hover:bg-[rgba(148,163,184,0.12)]',
         ghost: 'text-[var(--text)] hover:bg-[rgba(148,163,184,0.12)]',
         gradient:
-          'bg-gradient-to-r from-[var(--primary)] via-[#2563EB] to-[var(--accent)] text-white shadow-soft hover:translate-y-[-1px]',
+          'bg-gradient-to-r from-[#C05A7E] via-[#E8729A] to-[#F09EBB] text-white shadow-soft hover:translate-y-[-1px]',
       },
       size: {
         sm: 'px-4 py-2 text-xs',

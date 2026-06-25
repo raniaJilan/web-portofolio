@@ -11,7 +11,7 @@ import { Button } from '../ui/button'
 
 const Hero = () => {
   return (
-    <Section id="home" className="pt-10">
+    <Section id="home" className="pt-10 section-hero">
       <Container>
         <div className="grid items-center gap-12 lg:grid-cols-[1.1fr_0.9fr]">
           <div>
@@ -99,7 +99,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="relative"
           >
-            <div className="absolute -inset-8 rounded-[32px] bg-gradient-to-br from-[rgba(30,58,95,0.2)] via-transparent to-[rgba(59,130,246,0.2)] blur-2xl" />
+            <div className="absolute -inset-8 rounded-[32px] bg-gradient-to-br from-[rgba(52,211,153,0.18)] via-transparent to-[rgba(232,114,154,0.15)] blur-2xl" />
             <div className="relative overflow-hidden rounded-[32px] border border-[var(--border)] bg-[var(--panel)] p-4 shadow-card">
               <img
                 src={hero.image}

@@ -14,13 +14,13 @@
   --border: rgba(148, 163, 184, 0.22);
   --text: #1A1A2E;
   --text-muted: #374151;
-  --primary: #1E3A5F;
+  --primary: #C05A7E;
   --primary-foreground: #FFFFFF;
-  --accent: #3B82F6;
-  --accent-foreground: #0b1120;
-  --ring: rgba(30, 58, 95, 0.4);
-  --shadow-soft: 0 24px 80px rgba(30, 58, 95, 0.08);
-  --shadow-card: 0 8px 32px rgba(30, 58, 95, 0.08);
+  --accent: #E8729A;
+  --accent-foreground: #4A1A2E;
+  --ring: rgba(232, 114, 154, 0.4);
+  --shadow-soft: 0 24px 80px rgba(192, 90, 126, 0.08);
+  --shadow-card: 0 8px 32px rgba(192, 90, 126, 0.08);
 }
 
 [data-theme="dark"] {
@@ -32,13 +32,34 @@
   --border: rgba(148, 163, 184, 0.16);
   --text: #F1F5F9;
   --text-muted: #94A3B8;
-  --primary: #3B82F6;
+  --primary: #E8729A;
   --primary-foreground: #FFFFFF;
-  --accent: #60A5FA;
-  --accent-foreground: #0F172A;
-  --ring: rgba(59, 130, 246, 0.5);
+  --accent: #F9A8C9;
+  --accent-foreground: #1A0A12;
+  --ring: rgba(232, 114, 154, 0.5);
   --shadow-soft: 0 30px 90px rgba(0, 0, 0, 0.55);
   --shadow-card: 0 12px 40px rgba(0, 0, 0, 0.45);
+}
+
+/* Section background tints */
+.section-hero {
+  background-color: #F7FDF9;
+}
+.section-certifications {
+  background-color: #FFFBEB;
+}
+.section-contact {
+  background-color: #FFF1F2;
+}
+
+[data-theme="dark"] .section-hero {
+  background-color: #0F1A16;
+}
+[data-theme="dark"] .section-certifications {
+  background-color: #1A1708;
+}
+[data-theme="dark"] .section-contact {
+  background-color: #1A0F11;
 }
 
 * {
@@ -85,7 +106,7 @@ section {
 }
 
 ::selection {
-  background: rgba(30, 58, 95, 0.2);
+  background: rgba(232, 114, 154, 0.2);
 }
 
 @layer base {
@@ -135,14 +156,14 @@ section {
     inset: 0;
     border-radius: inherit;
     padding: 1px;
-    background: linear-gradient(120deg, rgba(30, 58, 95, 0.6), rgba(59, 130, 246, 0.5));
+    background: linear-gradient(120deg, rgba(192, 90, 126, 0.5), rgba(232, 114, 154, 0.4));
     mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     mask-composite: exclude;
     pointer-events: none;
   }
 
   .hero-grid {
-    background-image: radial-gradient(circle at 1px 1px, rgba(30, 58, 95, 0.1) 1px, transparent 0);
+    background-image: radial-gradient(circle at 1px 1px, rgba(52, 211, 153, 0.12) 1px, transparent 0);
     background-size: 32px 32px;
   }
 

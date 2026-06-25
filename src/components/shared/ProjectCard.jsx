@@ -49,13 +49,15 @@ const ProjectCard = ({ project, className = '' }) => {
             </Badge>
           ))}
         </div>
-        <div className="flex flex-wrap gap-2 text-xs text-[var(--text-muted)]">
-          {project.impact.map((item) => (
-            <span key={item} className="rounded-full border border-[var(--border)] px-3 py-1">
-              {item}
-            </span>
-          ))}
-        </div>
+        {project.impact && project.impact.length > 0 && (
+          <div className="flex flex-wrap gap-2 text-xs text-[var(--text-muted)]">
+            {project.impact.map((item) => (
+              <span key={item} className="rounded-full border border-[var(--border)] px-3 py-1">
+                {item}
+              </span>
+            ))}
+          </div>
+        )}
         <div className="flex flex-wrap items-center gap-3">
           <Link
             to={`/project/${project.slug}`}

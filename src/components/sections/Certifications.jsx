@@ -7,7 +7,7 @@ import SectionHeading from '../shared/SectionHeading'
 
 const Certifications = () => {
   return (
-    <Section id="certifications">
+    <Section id="certifications" className="section-certifications">
       <Container>
         <SectionHeading
           eyebrow="Credentials"

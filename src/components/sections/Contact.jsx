@@ -14,7 +14,7 @@ const Contact = () => {
   }
 
   return (
-    <Section id="contact">
+    <Section id="contact" className="section-contact">
       <Container>
         <SectionHeading
           eyebrow="Contact"

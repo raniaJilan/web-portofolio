@@ -1,0 +1,366 @@
+
+=== DIRECTORY TREE (max depth 3, source files only) ===
+.DS_Store
+.agents
+.agents/.DS_Store
+.agents/skills
+.agents/skills/acquire-codebase-knowledge
+.agents/skills/acquire-codebase-knowledge/SKILL.md
+.agents/skills/acquire-codebase-knowledge/assets
+.agents/skills/acquire-codebase-knowledge/references
+.agents/skills/acquire-codebase-knowledge/scripts
+.agents/skills/agent-governance
+.agents/skills/agent-governance/SKILL.md
+.agents/skills/ai-team-orchestration
+.agents/skills/ai-team-orchestration/SKILL.md
+.agents/skills/ai-team-orchestration/references
+.agents/skills/penpot-uiux-design
+.agents/skills/penpot-uiux-design/SKILL.md
+.agents/skills/penpot-uiux-design/references
+.agents/skills/premium-frontend-ui
+.agents/skills/premium-frontend-ui/SKILL.md
+.agents/skills/webapp-testing
+.agents/skills/webapp-testing/SKILL.md
+.agents/skills/webapp-testing/assets
+.gitignore
+README.md
+docs
+docs/.DS_Store
+docs/codebase
+docs/codebase/.codebase-scan.txt
+eslint.config.js
+index.html
+package-lock.json
+package.json
+public
+public/favicon.svg
+public/icons.svg
+public/og-image.svg
+src
+src/.DS_Store
+src/App.jsx
+src/assets
+src/assets/berbinar1.png
+src/assets/berbinar2.png
+src/assets/bsi1.jpeg
+src/assets/bsi2.png
+src/assets/bsi3.png
+src/assets/bsi4.jpeg
+src/assets/bsis1.jpeg
+src/assets/bsis2.jpeg
+src/assets/bsis3.png
+src/assets/formal.png
+src/assets/foto-web1.jpg
+src/assets/hero.png
+src/assets/inclusin.png
+src/assets/lab1.jpeg
+src/assets/menteri1.jpeg
+src/assets/menteri2.jpeg
+src/assets/menteri3.jpeg
+src/assets/paragon1.jpeg
+src/assets/paragon2.jpeg
+src/assets/paragon3.jpeg
+src/assets/react.svg
+src/assets/skotipal1.jpeg
+src/assets/skotipal2.jpeg
+src/assets/skotipal3.jpeg
+src/assets/stafahli1.jpeg
+src/assets/stafahli2.jpeg
+src/assets/stafmud1.jpeg
+src/assets/stafmud2.jpeg
+src/assets/vite.svg
+src/components
+src/components/.DS_Store
+src/components/layout
+src/components/layout/AppLayout.jsx
+src/components/layout/BackgroundGlow.jsx
+src/components/layout/CommandPalette.jsx
+src/components/layout/Container.jsx
+src/components/layout/Cursor.jsx
+src/components/layout/Footer.jsx
+src/components/layout/Navbar.jsx
+src/components/layout/PageTransition.jsx
+src/components/layout/Preloader.jsx
+src/components/layout/ScrollProgress.jsx
+src/components/layout/Section.jsx
+src/components/layout/SkipLink.jsx
+src/components/layout/ThemeToggle.jsx
+src/components/sections
+src/components/sections/About.jsx
+src/components/sections/Certifications.jsx
+src/components/sections/Contact.jsx
+src/components/sections/Experience.jsx
+src/components/sections/Hero.jsx
+src/components/sections/Projects.jsx
+src/components/sections/Skills.jsx
+src/components/shared
+src/components/shared/ExperienceItem.jsx
+src/components/shared/ImageCarousel.jsx
+src/components/shared/Magnetic.jsx
+src/components/shared/PinterestGallery.jsx
+src/components/shared/ProjectCard.jsx
+src/components/shared/SectionHeading.jsx
+src/components/shared/SkillGroup.jsx
+src/components/shared/SocialLinks.jsx
+src/components/shared/StatCard.jsx
+src/components/ui
+src/components/ui/badge.jsx
+src/components/ui/button.jsx
+src/components/ui/card.jsx
+src/components/ui/command.jsx
+src/components/ui/dialog.jsx
+src/components/ui/input.jsx
+src/components/ui/separator.jsx
+src/components/ui/textarea.jsx
+src/components/ui/tooltip.jsx
+src/context
+src/context/ActiveSectionContext.jsx
+src/context/ThemeContext.jsx
+src/data
+src/data/achievements.js
+src/data/certifications.js
+src/data/experiences.js
+src/data/navigation.js
+src/data/projects.js
+src/data/site.js
+src/data/skills.js
+src/data/social.js
+src/hooks
+src/hooks/useCursor.js
+src/hooks/useHotkeys.js
+src/hooks/useLenis.js
+src/hooks/useLocalStorage.js
+src/hooks/usePrefersReducedMotion.js
+src/hooks/useScrollDirection.js
+src/index.css
+src/lib
+src/lib/motion.js
+src/lib/utils.js
+src/main.jsx
+src/pages
+src/pages/Home.jsx
+src/pages/NotFound.jsx
+src/pages/ProjectDetails.jsx
+vite.config.js
+
+=== STACK DETECTION (manifest files) ===
+
+--- package-lock.json ---
+{
+  "name": "web-portofolio",
+  "version": "0.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "web-portofolio",
+      "version": "0.0.0",
+      "dependencies": {
+        "@radix-ui/react-dialog": "^1.1.14",
+        "@radix-ui/react-dropdown-menu": "^2.1.14",
+        "@radix-ui/react-slot": "^1.1.1",
+        "@radix-ui/react-tooltip": "^1.2.7",
+        "@studio-freight/lenis": "^1.0.29",
+        "@tailwindcss/vite": "^4.3.0",
+        "class-variance-authority": "^0.7.1",
+        "clsx": "^2.1.1",
+        "cmdk": "^1.0.4",
+        "framer-motion": "^11.18.2",
+        "lucide-react": "^0.501.0",
+        "react": "^19.2.5",
+        "react-dom": "^19.2.5",
+        "react-router-dom": "^6.26.2",
+        "tailwind-merge": "^2.5.3",
+        "tailwindcss": "^4.3.0"
+      },
+      "devDependencies": {
+        "@eslint/js": "^10.0.1",
+        "@types/react": "^19.2.14",
+        "@types/react-dom": "^19.2.3",
+        "@vitejs/plugin-react": "^6.0.1",
+        "eslint": "^10.2.1",
+        "eslint-plugin-react-hooks": "^7.1.1",
+        "eslint-plugin-react-refresh": "^0.5.2",
+        "globals": "^17.5.0",
+        "vite": "^8.0.10"
+      }
+    },
+    "node_modules/@babel/code-frame": {
+      "version": "7.29.0",
+      "resolved": "https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.29.0.tgz",
+      "integrity": "sha512-9NhCeYjq9+3uxgdtp20LSiJXJvN0FeCtNGpJxuMFZ1Kv3cWUNb6DOhJwUvcVCzKGR66cw4njwM6hrJLqgOwbcw==",
+      "dev": true,
+      "license": "MIT",
+      "dependencies": {
+        "@babel/helper-validator-identifier": "^7.28.5",
+        "js-tokens": "^4.0.0",
+        "picocolors": "^1.1.1"
+      },
+      "engines": {
+        "node": ">=6.9.0"
+      }
+    },
+    "node_modules/@babel/compat-data": {
+      "version": "7.29.3",
+      "resolved": "https://registry.npmjs.org/@babel/compat-data/-/compat-data-7.29.3.tgz",
+      "integrity": "sha512-LIVqM46zQWZhj17qA8wb4nW/ixr2y1Nw+r1etiAWgRM6U1IqP+LNhL1yg440jYZR72jCWcWbLWzIosH+uP1fqg==",
+      "dev": true,
+      "license": "MIT",
+      "engines": {
+        "node": ">=6.9.0"
+      }
+    },
+    "node_modules/@babel/core": {
+      "version": "7.29.0",
+      "resolved": "https://registry.npmjs.org/@babel/core/-/core-7.29.0.tgz",
+      "integrity": "sha512-CGOfOJqWjg2qW/Mb6zNsDm+u5vFQ8DxXfbM09z69p5Z6+mE1ikP2jUXw+j42Pf1XTYED2Rni5f95npYeuwMDQA==",
+      "dev": true,
+      "license": "MIT",
+      "dependencies": {
+        "@babel/code-frame": "^7.29.0",
+        "@babel/generator": "^7.29.0",
+        "@babel/helper-compilation-targets": "^7.28.6",
+        "@babel/helper-module-transforms": "^7.28.6",
+        "@babel/helpers": "^7.28.6",
+        "@babel/parser": "^7.29.0",
+        "@babel/template": "^7.28.6",
+        "@babel/traverse": "^7.29.0",
+        "@babel/types": "^7.29.0",
+
+[TRUNCATED] Showing first 80 of 3742 lines.
+--- package.json ---
+{
+  "name": "web-portofolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.0",
+    "@radix-ui/react-dialog": "^1.1.14",
+    "@radix-ui/react-dropdown-menu": "^2.1.14",
+    "@radix-ui/react-slot": "^1.1.1",
+    "@radix-ui/react-tooltip": "^1.2.7",
+    "@studio-freight/lenis": "^1.0.29",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "cmdk": "^1.0.4",
+    "framer-motion": "^11.18.2",
+    "lucide-react": "^0.501.0",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "react-router-dom": "^6.26.2",
+    "tailwind-merge": "^2.5.3",
+    "tailwindcss": "^4.3.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "eslint": "^10.2.1",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.5.0",
+    "vite": "^8.0.10"
+  }
+}
+
+=== ENTRY POINTS ===
+No common entry points found. Check 'main' or 'scripts.start' in manifest files above.
+
+=== LINTING AND FORMATTING CONFIG ===
+Found: eslint.config.js
+
+=== ENVIRONMENT VARIABLE TEMPLATES ===
+No .env.example or .env.template found. Identify required environment variables by searching the code and config for environment variable reads.
+
+=== TODO / FIXME / HACK (production code only, test dirs excluded) ===
+.agents/skills/acquire-codebase-knowledge/scripts/scan.py:28: TODO_LIMIT = 60
+.agents/skills/acquire-codebase-knowledge/scripts/scan.py:291: """Search for TODO/FIXME/HACK comments."""
+.agents/skills/acquire-codebase-knowledge/scripts/scan.py:291: """Search for TODO/FIXME/HACK comments."""
+.agents/skills/acquire-codebase-knowledge/scripts/scan.py:291: """Search for TODO/FIXME/HACK comments."""
+.agents/skills/acquire-codebase-knowledge/scripts/scan.py:293: patterns = ["TODO", "FIXME", "HACK"]
+.agents/skills/acquire-codebase-knowledge/scripts/scan.py:293: patterns = ["TODO", "FIXME", "HACK"]
+.agents/skills/acquire-codebase-knowledge/scripts/scan.py:293: patterns = ["TODO", "FIXME", "HACK"]
+.agents/skills/acquire-codebase-knowledge/scripts/scan.py:320: return todos[:TODO_LIMIT]
+.agents/skills/acquire-codebase-knowledge/scripts/scan.py:617: # TODOs
+.agents/skills/acquire-codebase-knowledge/scripts/scan.py:620: print_section("TODO / FIXME / HACK (production code only, test dirs excluded)", todos, output_file)
+.agents/skills/acquire-codebase-knowledge/scripts/scan.py:620: print_section("TODO / FIXME / HACK (production code only, test dirs excluded)", todos, output_file)
+.agents/skills/acquire-codebase-knowledge/scripts/scan.py:620: print_section("TODO / FIXME / HACK (production code only, test dirs excluded)", todos, output_file)
+.agents/skills/acquire-codebase-knowledge/scripts/scan.py:622: print_section("TODO / FIXME / HACK (production code only, test dirs excluded)", ["None found."], output_file)
+.agents/skills/acquire-codebase-knowledge/scripts/scan.py:622: print_section("TODO / FIXME / HACK (production code only, test dirs excluded)", ["None found."], output_file)
+.agents/skills/acquire-codebase-knowledge/scripts/scan.py:622: print_section("TODO / FIXME / HACK (production code only, test dirs excluded)", ["None found."], output_file)
+
+=== GIT RECENT COMMITS (last 20) ===
+4b3a657 feat: add new assets, update experience and project data, and adjust layout styles
+d353d50 refactor(UI): update color palette, enhance project data structure with dynamic actions, and add ImageCarousel component
+1ef372c change 1
+0310f8c version 1
+bb0f794 init
+
+=== HIGH-CHURN FILES (last 90 days, top 20) ===
+   4 src/data/achievements.js
+   4 src/data/experiences.js
+   4 src/data/projects.js
+   4 src/index.css
+   3 src/components/shared/ExperienceItem.jsx
+   3 src/data/site.js
+   3 index.html
+   2 src/components/layout/AppLayout.jsx
+   2 src/components/layout/Section.jsx
+   2 src/components/shared/ImageCarousel.jsx
+   2 src/pages/Home.jsx
+   2 src/components/layout/BackgroundGlow.jsx
+   2 src/components/layout/ScrollProgress.jsx
+   2 src/components/sections/Certifications.jsx
+   2 src/components/sections/Experience.jsx
+   2 src/components/sections/Hero.jsx
+   2 src/components/shared/ProjectCard.jsx
+   2 src/components/ui/button.jsx
+   2 src/pages/ProjectDetails.jsx
+   2 src/data/certifications.js
+
+=== MONOREPO SIGNALS ===
+No monorepo signals detected.
+
+=== CODE METRICS ===
+Total files scanned: 126
+Total lines of code: 7528
+
+Files by language:
+  Other: 61
+  JavaScript/React: 45
+  JavaScript: 19
+  Python: 1
+
+Top 10 largest files:
+src/assets/formal.png: 12152.3KB
+src/assets/berbinar2.png: 4795.3KB
+src/assets/bsis3.png: 4000.7KB
+src/assets/bsi3.png: 2158.1KB
+src/assets/bsi2.png: 2088.8KB
+src/assets/bsi4.jpeg: 1666.2KB
+src/assets/berbinar1.png: 1661.1KB
+src/assets/bsis1.jpeg: 1458.7KB
+src/assets/lab1.jpeg: 1101.3KB
+src/assets/skotipal1.jpeg: 470.0KB
+
+=== CI/CD PIPELINES ===
+No CI/CD pipelines detected.
+
+=== CONTAINERS & ORCHESTRATION ===
+No containerization configs detected.
+
+=== SECURITY & COMPLIANCE ===
+No security configs detected.
+
+=== PERFORMANCE & TESTING ===
+No performance testing configs detected.
+
+=== SCAN COMPLETE ===

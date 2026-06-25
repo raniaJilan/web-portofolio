@@ -4,7 +4,7 @@ import { useLocalStorage } from '../hooks/useLocalStorage'
 const ThemeContext = createContext(null)
 
 export function ThemeProvider({ children }) {
-  const [theme, setTheme] = useLocalStorage('portfolio-theme', 'dark')
+  const [theme, setTheme] = useLocalStorage('portfolio-theme', 'light')
 
   const [systemTheme, setSystemTheme] = useState('light')
 
