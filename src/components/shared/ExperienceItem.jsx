@@ -12,39 +12,68 @@ const ExperienceItem = ({ experience, index }) => {
       className="relative pl-10"
     >
       <span className="absolute left-2 top-5 h-3 w-3 rounded-full bg-[var(--primary)] shadow-soft" />
+
       <div className="rounded-3xl border border-[var(--border)] bg-[var(--panel)] p-6 shadow-card">
+        {/* Header */}
         <div className="flex flex-wrap items-center justify-between gap-2">
           <div>
-            <h3 className="text-lg font-semibold text-[var(--text)]">{experience.role}</h3>
-            <p className="text-sm text-[var(--text-muted)]">{experience.company}</p>
+            <h3 className="text-lg font-semibold text-[var(--text)]">
+              {experience.role}
+            </h3>
+            <p className="text-sm text-[var(--text-muted)]">
+              {experience.company}
+            </p>
           </div>
+
           <Badge>{experience.period}</Badge>
         </div>
-        <p className="mt-4 text-sm text-[var(--text-muted)]">{experience.summary}</p>
-        <ul className="mt-4 space-y-2 text-sm text-[var(--text)]">
-          {experience.highlights.map((item) => (
-            <li key={item} className="flex items-start gap-2">
-              <span className="mt-2 h-1.5 w-1.5 rounded-full bg-[var(--accent)]" />
-              {item}
-            </li>
-          ))}
-        </ul>
 
-        {/* Image gallery carousel */}
-        {experience.gallery && experience.gallery.length > 0 && (
-          <div className="mt-4">
-            <ImageCarousel images={experience.gallery} height="160px" />
+        {/* Summary */}
+        {/* <p className="mt-4 text-sm text-[var(--text-muted)]">
+          {experience.summary}
+        </p> */}
+
+        {/* Content Area */}
+        <div className="mt-5 flex flex-col gap-5 lg:flex-row">
+          {/* LEFT SIDE - Highlights */}
+          <div className="flex-1">
+            <p className="text-sm text-[var(--text-muted)]">
+              {experience.summary}
+            </p>
+            <ul className="mt-4 space-y-2 text-sm text-[var(--text)]">
+              {experience.highlights.map((item) => (
+                <li key={item} className="flex items-start gap-2">
+                  <span className="mt-2 h-1.5 w-1.5 rounded-full bg-[var(--accent)]" />
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
           </div>
-        )}
 
-        <div className="mt-4 flex flex-wrap gap-2">
+          {/* RIGHT SIDE - Carousel */}
+          {experience.gallery && experience.gallery.length > 0 && (
+            <div className="w-full lg:w-[280px] shrink-0">
+              <ImageCarousel
+                images={experience.gallery}
+                height="180px"
+              />
+            </div>
+          )}
+        </div>
+
+        {/* Tech Stack */}
+        <div className="mt-5 flex flex-wrap gap-2">
           {experience.technologies.map((tech) => (
             <Badge key={tech} variant="ghost">
               {tech}
             </Badge>
           ))}
         </div>
-        <p className="mt-4 text-xs text-[var(--text-muted)]">{experience.location}</p>
+
+        {/* Location */}
+        <p className="mt-4 text-xs text-[var(--text-muted)]">
+          {experience.location}
+        </p>
       </div>
     </motion.div>
   )

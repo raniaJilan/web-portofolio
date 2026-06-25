@@ -19,7 +19,7 @@ const AppLayout = () => {
       <Navbar />
       <CommandPalette />
       <Preloader />
-      <main id="main-content" className="relative pt-28">
+      <main id="main-content" className="relative pt-20">
         <PageTransition>
           <Outlet />
         </PageTransition>

@@ -26,7 +26,7 @@ const Section = ({ id, className, children, ...props }) => {
   }, [id, setActiveSection])
 
   return (
-    <section id={id} ref={ref} className={cn('py-20 lg:py-28', className)} {...props}>
+    <section id={id} ref={ref} className={cn('py-12 lg:py-16', className)} {...props}>
       {children}
     </section>
   )
