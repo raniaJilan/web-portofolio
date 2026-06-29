@@ -1,5 +1,12 @@
 export const certifications = [
   {
+    title: 'Microsoft Office Desktop Applications',
+    issuer: 'TRUST Training Partner',
+    date: '2026',
+    credential: 'Certificate No 26UBC06131357',
+    link: 'https://drive.google.com/file/d/1qeSY0yS6Kq2fmG_1oqR1MLb5ouyIDmQj/view?usp=sharing',
+  },
+  {
     title: 'Web Development Fundamentals',
     issuer: 'IBM SkillsBuild',
     date: '2024',
