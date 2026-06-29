@@ -70,7 +70,7 @@ const Navbar = () => {
           </nav>
 
           <div className="flex items-center gap-2">
-            <button
+            {/* <button
               type="button"
               onClick={handleOpenCommandPalette}
               className="hidden items-center gap-2 rounded-full border border-[var(--border)] bg-[var(--panel)] px-3 py-2 text-xs text-[var(--text-muted)] transition hover:text-[var(--text)] lg:flex"
@@ -79,7 +79,7 @@ const Navbar = () => {
               <span className="rounded-full border border-[var(--border)] px-2 py-0.5 text-[10px] text-[var(--text-muted)]">
                 ⌘K
               </span>
-            </button>
+            </button> */}
             <ThemeToggle />
             <Button asChild className="hidden lg:inline-flex" variant="gradient">
               <a href="#contact">Let’s talk</a>
