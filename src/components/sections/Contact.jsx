@@ -18,8 +18,8 @@ const Contact = () => {
       <Container>
         <SectionHeading
           eyebrow="Contact"
-          title="Let’s build something premium together."
-          description="Tell me about your product, vision, and goals. I’ll follow up within 24 hours."
+          title="Interested in working together?"
+          description="Feel free to reach out for collaborations, projects, or professional opportunities."
         />
         <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr]">
           <div className="rounded-3xl border border-[var(--border)] bg-[var(--panel)] p-6 shadow-card">
@@ -38,6 +38,10 @@ const Contact = () => {
             <div className="mt-8 rounded-2xl border border-[var(--border)] bg-[rgba(148,163,184,0.08)] p-4">
               <p className="text-sm text-[var(--text-muted)]">Based in</p>
               <p className="mt-2 text-sm font-semibold text-[var(--text)]">{siteMeta.location}</p>
+            </div>
+            <div className="mt-4 rounded-2xl border border-[var(--border)] bg-[rgba(148,163,184,0.08)] p-4">
+              <p className="text-sm text-[var(--text-muted)]">Current Status</p>
+              <p className="mt-2 text-sm font-semibold text-[var(--text)]">{siteMeta.status}</p>
             </div>
           </div>
           <form onSubmit={handleSubmit} className="rounded-3xl border border-[var(--border)] bg-[var(--panel)] p-6 shadow-card">
@@ -59,13 +63,13 @@ const Contact = () => {
               <label htmlFor="contact-project" className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--text-muted)]">
                 Project Type
               </label>
-              <Input id="contact-project" name="project" className="mt-2" placeholder="Product design, UI engineering, etc." />
+              <Input id="contact-project" name="project" className="mt-2" placeholder="Collaboration, Internship, Full-time Opportunity, etc." />
             </div>
             <div className="mt-4">
               <label htmlFor="contact-message" className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--text-muted)]">
                 Message
               </label>
-              <Textarea id="contact-message" name="message" className="mt-2" placeholder="Tell me about your goals, timeline, and success metrics." />
+              <Textarea id="contact-message" name="message" className="mt-2" placeholder="Tell me about your project, opportunity, or how I can help." />
             </div>
             <div className="mt-6 flex flex-wrap items-center gap-4">
               <Button type="submit" variant="gradient">

@@ -24,8 +24,8 @@ const Experience = () => {
       <Container>
         <SectionHeading
           eyebrow="Experience"
-          title="Leading design and engineering across product lifecycles."
-          description="A snapshot of roles where strategy, system thinking, and execution came together."
+          title="Journey of learning and collaboration."
+          description="A collection of roles that allowed me to learn, collaborate, and grow in various fields of technology."
         />
 
         {/* Tab buttons */}

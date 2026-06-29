@@ -19,4 +19,9 @@ export const socialLinks = [
     href: 'ranihany223@gmail.com',
     icon: 'Mail',
   },
+  {
+    label: 'ShutterStock',
+    href: 'https://www.shutterstock.com/g/UIgloo',
+    icon: 'ShutterStock',
+  },
 ]

@@ -5,8 +5,9 @@ export const siteMeta = {
   author: 'Rania Jilan',
   email: 'ranihany223@gmail.com',
   location: 'Malang, Indonesia',
-  availability: 'Open for select collaborations',
+  availability: 'Currently open to new opportunities',
   resumeUrl: 'https://drive.google.com/file/d/1pNP5hi-KVJwt86zJUUJZDzWTgMV4jCdQ/view?usp=sharing',
+  status: 'Fresh Graduate in Information Technology, Universitas Brawijaya'
 }
 
 export const hero = {
@@ -17,16 +18,16 @@ export const hero = {
   ctaPrimary: { label: 'Let’s Connect', href: '#contact' },
   ctaSecondary: { label: 'Things I’ve Built', href: '#projects' },
   image:
-    'src/assets/foto-web1.jpg',
+    'src/assets/foto-web1.webp',
   highlights: [
     'Information technology University of Brawijaya',
     '2+ years of organizational experience',
     'get 3.81/4.00 GPA with 4.00 in the 6th semester',
   ],
   metrics: [
-    { label: 'Projects shipped', value: '48+' },
-    { label: 'Product launches', value: '16' },
-    { label: 'Design systems', value: '7' },
+    { label: 'Academic & Personal Projects', value: '10+' },
+    { label: 'Organizational Experience', value: '2+ years' },
+    { label: 'GPA', value: '3.81/4.00' },
   ],
 }
 

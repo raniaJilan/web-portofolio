@@ -21,7 +21,7 @@ const Hero = () => {
               transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
               className="flex flex-wrap items-center gap-2"
             >
-              <Badge variant="primary">Available for select work</Badge>
+              <Badge variant="primary">Available for opportunities</Badge>
               <Badge>2026 Portfolio</Badge>
             </motion.div>
             <motion.h1

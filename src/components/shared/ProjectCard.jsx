@@ -34,7 +34,7 @@ const ProjectCard = ({ project, className = '' }) => {
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
         <div className="absolute bottom-4 left-4 flex items-center gap-2">
           <Badge variant="primary">{project.category}</Badge>
-          <Badge>{project.year}</Badge>
+          <Badge variant="primary">{project.year}</Badge>
         </div>
       </div>
       <div className="flex flex-col gap-4 p-6">
@@ -59,13 +59,13 @@ const ProjectCard = ({ project, className = '' }) => {
           </div>
         )}
         <div className="flex flex-wrap items-center gap-3">
-          <Link
+          {/* <Link
             to={`/project/${project.slug}`}
             className="inline-flex items-center gap-1 text-sm font-semibold text-[var(--text)]"
           >
             View case study
             <ArrowUpRight className="h-4 w-4" />
-          </Link>
+          </Link> */}
           {project.actions &&
             project.actions.map((action) => {
               const Icon = iconMap[action.icon] || ExternalLink

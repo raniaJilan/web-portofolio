@@ -10,8 +10,8 @@ const Skills = () => {
       <Container>
         <SectionHeading
           eyebrow="Skills"
-          title="A toolkit built for modern product teams."
-          description="From UX research to motion systems, these are the disciplines I combine to craft premium experiences."
+          title="The skills I've developed along my journey."
+          description="Combining business analysis, product thinking, design, and technology to create meaningful digital solutions."
         />
         <div className="grid gap-6 md:grid-cols-2">
           {skills.map((group) => (

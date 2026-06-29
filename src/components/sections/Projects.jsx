@@ -50,8 +50,8 @@ const Projects = () => {
       <Container>
         <SectionHeading
           eyebrow="Projects"
-          title="Selected work with measurable impact."
-          description="A curated mix of product design, engineering, and motion systems built for ambitious teams."
+          title="Selected projects that shaped my journey."
+          description="A glimpse into the projects and experiences that helped me grow in technology and business."
         />
         <div className="flex flex-wrap items-center gap-3">
           {projectFilters.map((filter) => (

@@ -11,7 +11,7 @@ const Footer = () => {
           <div>
             <p className="text-sm font-semibold text-[var(--text)]">Rania Jilan</p>
             <p className="text-sm text-[var(--text-muted)]">
-              Premium product design and frontend engineering.
+              Building Solutions with Technology.
             </p>
           </div>
           <nav className="flex flex-wrap gap-4 text-sm text-[var(--text-muted)]">
