@@ -18,7 +18,7 @@ export const hero = {
   ctaPrimary: { label: 'Let’s Connect', href: '#contact' },
   ctaSecondary: { label: 'Things I’ve Built', href: '#projects' },
   image:
-    'src/assets/foto-web1.webp',
+    '/foto-web1.webp',
   highlights: [
     'Information technology University of Brawijaya',
     '2+ years of organizational experience',

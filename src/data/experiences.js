@@ -15,9 +15,9 @@ export const experiences = [
     ],
     technologies: ['Figma', 'Power Point', 'Office'],
     gallery: [
-      { src: '/src/assets/paragon1.jpeg', caption: 'At work' },
-      { src: '/src/assets/paragon2.jpeg', caption: 'intern team in paragon hall' },
-      { src: '/src/assets/paragon3.jpeg', caption: 'Intern team' },
+      { src: '/paragon1.jpeg', caption: 'At work' },
+      { src: '/paragon2.jpeg', caption: 'intern team in paragon hall' },
+      { src: '/paragon3.jpeg', caption: 'Intern team' },
     ],
   },
   {
@@ -35,8 +35,8 @@ export const experiences = [
     ],
     technologies: ['Figma', 'Google Docs', 'Trello', 'Canva'],
     gallery: [
-      { src: '/src/assets/berbinar2.png', caption: 'web developer team' },
-      { src: '/src/assets/berbinar1.png', caption: 'monthly team meeting' },
+      { src: '/berbinar2.png', caption: 'web developer team' },
+      { src: '/berbinar1.png', caption: 'monthly team meeting' },
     ],
   },
   {
@@ -70,9 +70,9 @@ export const experiences = [
     ],
     technologies: ['Leadership', 'Teamwork', 'Communication', 'Event Planning'],
     gallery: [
-      { src: '/src/assets/menteri1.jpeg', caption: 'team member' },
-      { src: '/src/assets/menteri2.jpeg', caption: 'work program activity' },
-      { src: '/src/assets/menteri3.jpeg', caption: 'weekly meeting' },
+      { src: '/menteri1.jpeg', caption: 'team member' },
+      { src: '/menteri2.jpeg', caption: 'work program activity' },
+      { src: '/menteri3.jpeg', caption: 'weekly meeting' },
     ],
   },
   {
@@ -89,9 +89,9 @@ export const experiences = [
     ],
     technologies: ['Leadership', 'Teamwork', 'Communication', 'Event Planning'],
     gallery: [
-      { src: '/src/assets/bsi1.jpeg', caption: 'opening ceremony' },
-      { src: '/src/assets/bsi4.jpeg', caption: 'office visit' },
-      { src: '/src/assets/bsi3.png', caption: 'group meeting class' },
+      { src: '/bsi1.jpeg', caption: 'opening ceremony' },
+      { src: '/bsi4.jpeg', caption: 'office visit' },
+      { src: '/bsi3.png', caption: 'group meeting class' },
     ],
   },
   {
@@ -108,7 +108,7 @@ export const experiences = [
     ],
     technologies: ['Leadership', 'Teamwork', 'Communication', 'Event Planning'],
     gallery: [
-      { src: '/src/assets/lab1.jpeg', caption: 'lab meeting' },
+      { src: '/lab1.jpeg', caption: 'lab meeting' },
     ],
   },
   {
@@ -125,9 +125,9 @@ export const experiences = [
     ],
     technologies: ['Leadership', 'Teamwork', 'Communication', 'Event Planning'],
     gallery: [
-      { src: '/src/assets/bsis1.jpeg', caption: 'ramadhan project' },
-      { src: '/src/assets/bsis2.jpeg', caption: 'annual meeting' },
-      { src: '/src/assets/bsis3.png', caption: 'closing ceremony' },
+      { src: '/bsis1.jpeg', caption: 'ramadhan project' },
+      { src: '/bsis2.jpeg', caption: 'annual meeting' },
+      { src: '/bsis3.png', caption: 'closing ceremony' },
     ],
   },
   {
@@ -144,9 +144,9 @@ export const experiences = [
     ],
     technologies: ['Leadership', 'Teamwork', 'Communication', 'Event Planning'],
     gallery: [
-      { src: '/src/assets/skotipal1.jpeg', caption: 'team member' },
-      { src: '/src/assets/skotipal2.jpeg', caption: 'workshop session' },
-      { src: '/src/assets/skotipal3.jpeg', caption: 'dday talkshow & expo' },
+      { src: '/skotipal1.jpeg', caption: 'team member' },
+      { src: '/skotipal2.jpeg', caption: 'workshop session' },
+      { src: '/skotipal3.jpeg', caption: 'dday talkshow & expo' },
     ],
   },
   {
@@ -163,9 +163,8 @@ export const experiences = [
     ],
     technologies: ['Leadership', 'Teamwork', 'Communication', 'Event Planning'],
     gallery: [
-      { src: '/src/assets/stafahli1.jpeg', caption: 'new team member' },
-      { src: '/src/assets/stafahli2.jpeg', caption: 'dewa ngoding work program' },
+      { src: '/stafahli1.jpeg', caption: 'new team member' },
+      { src: '/stafahli2.jpeg', caption: 'dewa ngoding work program' },
     ],
   },
-
 ]
